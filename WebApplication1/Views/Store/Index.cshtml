@@ -1,0 +1,8 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Browse our store</h2>
+<li>@Html.ActionLink("Addidas", "Browse", "Store", new { brands = "Addidas" }, null)</li>
+<li>@Html.ActionLink("Nike", "Browse", "Store", new { brands = "Nike" }, null)</li>
+<li>@Html.ActionLink("Puma", "Browse", "Store", new { brands = "Puma" }, null)</li>
